@@ -23,6 +23,7 @@ depends=(
   'gst-plugins-base'
   'gst-plugins-good'
   'libepoxy'
+  'libjpeg6-turbo'
 )
 makedepends=('flatpak-extract' 'ostree' 'patchelf')
 source=("oriongtk-${pkgver}.flatpak::https://orionbrowser.com/download/oriongtk-early-beta")
